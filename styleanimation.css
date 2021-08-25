@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    background-image: url("https://i.postimg.cc/rmHmb8cY/wp9380418-mountain-blue-color-4k-wallpapers.jpg");
+    margin: 0;
+}
+
+:root {
+    --image-text: black; 
+    --image-border: 1px solid black;
+}
+
+.animation {
+    position: relative;
+}
+
+.animation div {
+    transform: translateX(600px) translateY(220px);
+    position: absolute;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    width: 50px;
+    background:none;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.animation:hover div {
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+img:hover {
+    opacity: 0.5; 
+    transform: scale(1.2 );
+    border: var(--image-border);
+    opacity: 1;
+   border: 1px solid rgba(255, 255, 255, 0.125);
+   cursor: pointer;
+   
+} 
+
+img {
+    position: absolute;
+    height: 150px;
+    width: auto;
+    margin-right: 50px;
+    margin-top: 50px; 
+   display: inline;
+   background-color: rgba(53, 149, 204, 0.404);
+    backdrop-filter: blur(16px) saturate(100%);
+    opacity: 0.7;
+    border-radius: 25px;
+}
+
+
+#fox-1 {
+    position: absolute;
+     right: 10px; 
+    animation: first-fox 1.5s ease-in; 
+    
+}
+
+#fox-2 {
+    animation: second-fox 2s ease-in ;
+    position: absolute;
+     right:200px; 
+     
+     
+}
+
+#fox-3 {
+    animation: third-fox 2.5s ease-in ;
+    position: absolute;
+     right: 400px; 
+    
+}
+#fox-4 {
+    animation: fourth-fox 3s ease-in  ;
+    position: absolute;
+     right: 600px; 
+ 
+}
+
+#fox-5 {
+    animation: fifth-fox 3.5s ease-in ;
+    position: absolute;
+     right: 800px; 
+    
+}
+
+#fox-6 {
+    animation: sixth-fox 4s ease-in ;
+    position: absolute;
+     right: 1000px; 
+  
+}
+
+@keyframes first-fox {
+    0% {
+        transform: translateX(-900%);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes second-fox {
+    0% {
+        transform: translateX(-800%);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+} 
+@keyframes third-fox {
+    0% {
+        transform: translateX(-700%);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fourth-fox {
+    0% {
+        transform: translateX(-600%);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fifth-fox {
+    0% {
+        transform: translateX(-500%);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes sixth-fox {
+    0% {
+        transform: translateX(-400%);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+

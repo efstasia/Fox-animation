@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+div {
+  overflow-x: hidden;
+}
+
+img:hover {
+  opacity: 0.5;
+  transform: scale(1.2 );
+  
+}
+
+img {
+  height: 150px;
+  width: auto;
+  margin-right: 50px;
+  margin-top: 50px; 
+ 
+}
+
+.animation {
+  animation: fifth-fox 1.5s ease-in 4s;
+  animation: first-fox 1.5s ease-in, second-fox 1.5s ease-in  1s, third-fox 1.5s ease-in 2s, 
+  fourth-fox 1.5s ease-in  3s, fifth-fox 1.5s ease-in 4s, sixth-fox 1.5s ease-in 4.5s; 
+}
+
+
+  
+
+
+
+
+.fox-6 {
+  animation: sixth-fox 1.5s ease-in 4.5s;
+  position: absolute;
+   right: 1000px; 
+
+}
+
+@keyframes first-fox {
+  0% {
+      transform: translateX(-900%);
+      opacity: 0.5;
+  }
+  
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes second-fox {
+  0% {
+      transform: translateX(-800%);
+      opacity: 0.5;
+  }
+  
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+} 
+@keyframes third-fox {
+  0% {
+      transform: translateX(-700%);
+      opacity: 0.5;
+  }
+  
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes fourth-fox {
+  0% {
+      transform: translateX(-600%);
+      opacity: 0.5;
+  }
+  
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+@keyframes fifth-fox {
+  0% {
+      transform: translateX(-500%);
+      opacity: 0.5;
+  }
+  
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+@keyframes sixth-fox {
+  0% {
+      transform: translateX(-400%);
+      opacity: 0.5;
+  }
+  
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
